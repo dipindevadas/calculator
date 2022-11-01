@@ -1,0 +1,100 @@
+body{
+    padding: 0px;
+    border: 0;
+    /* background-color: rgb(5, 6, 43); */
+   
+}
+
+h4{
+   text-align: center; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+}
+
+.container{
+    width: 380px;
+    /* height: 540px; */
+    background-color: black;
+    margin: auto;
+    
+    
+}
+p{
+    margin-top: 2cm;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    
+}
+#screen{
+    background-color: black;
+    height: 80px;
+    width: 340px;
+    margin: 5px;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: right;
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: white;
+    margin-top: 40px;
+
+}
+.button{
+    background-color: rgb(32, 31, 31);
+     color: white;
+    
+    /* color: rgba(0,0,0,0.6); */
+    width: 65px;
+    height: 60px;
+    font-size: 1.6rem;
+  
+    margin: 10px;
+    border-radius: 20px ;
+    margin-top: 20px;
+    
+    /* box-shadow: 6px 6px 12px -1px rgba(0,0,0,0.1),
+    -6px -6px 12px -1px rgba(255,255,255,0.6); */
+
+}
+
+.delete,.clear{background-color: rgb(83, 81, 81);
+    }
+
+
+.operator{
+    background-color: rgb(47, 79, 165);
+    
+}
+.operator:hover{
+    border: 2px solid white;
+}
+
+.number{
+    color:  rgb(81, 100, 151);
+    font-weight: bolder;
+    
+
+}
+.number:hover{
+    border: 2px solid blue;
+}
+
+/* .button:hover{
+    border:2px solid greenyellow;
+} */
+
+#equal{
+    width: 4.2cm;
+    margin-left: 6px;
+    background-color: rgb(59, 132, 138);
+}
+#equal:hover{
+    border: 1px solid white;
+}
+.delete:hover{border: 1px solid ;}
+
+.clear:hover{border: 1px solid yellow;
+background:yellow;
+font-weight: bolder;}
